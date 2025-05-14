@@ -1,11 +1,11 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
-metrics = ['Accuracy', 'Precision (1)', 'Recall (1)', 'F1-Score (1)']
+metrics = ['Accuracy', 'Precision (1)', 'Recall (1)', 'F1-Score (1)', 'Precision (0)', 'Recall (0)', 'F1-Score (0)']
 
-knn_values = [0.72, 0.68, 0.39, 0.49]
+knn_values = [0.72, 0.68, 0.39, 0.49, 0.73, 0.90, 0.81]
 
-logreg_values = [0.701, 0.59, 0.50, 0.54]
+logreg_values = [0.701, 0.59, 0.50, 0.54, 0.75, 0.81, 0.78]
 
 x = np.arange(len(metrics)) 
 width = 0.35 
